@@ -13,7 +13,7 @@ public class TicTacToeGUI extends JFrame implements ActionListener {
         buttons = new JButton[3][3];
         JPanel boardPanel = new JPanel(new GridLayout(3, 3));
         for (int row = 0; row < 3; row++) {
-            for (int col = 0; col < 3; col++) {
+            for (int col = 0; col < 3; c
                 buttons[row][col] = new JButton("");
                 buttons[row][col].setFont(new Font("Arial", Font.PLAIN, 80));
                 buttons[row][col].addActionListener(this);
