@@ -7,8 +7,8 @@ public class TicTacToeGUI extends JFrame implements ActionListener {
     private JLabel statusLabel;
     private boolean playerX;
     private int numMoves;
-
-    public TicTacToeGUI() {
+//Parthvik was here and wants to chaange this
+    public TicTacToParth() {
         // Set up the game board
         buttons = new JButton[3][3];
         JPanel boardPanel = new JPanel(new GridLayout(3, 3));
