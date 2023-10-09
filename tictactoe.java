@@ -20,6 +20,8 @@ public class TicTacToeGUI extends JFrame implements ActionListener {
                 boardPanel.add(buttons[row][col]);
             }
         }
+        // hi world
+        add(boardPanel,BorderLayout.CENTER);
 
         // Set up the status label
         statusLabel = new JLabel("Player X's turn");
